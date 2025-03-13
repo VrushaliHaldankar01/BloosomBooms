@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.home-page {
+    color: #333;
+}
+
+.hero-section {
+    margin-top: 60px;
+    background: url('../Assets/flower-background.jpg') no-repeat center center/cover;
+
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    background-blur: rgba(0, 0, 0, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.shop-now-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.shop-now-button:hover {
+    background-color: #e55b50;
+    transform: scale(1.05);
+}
+
+.featured-flowers {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.featured-flowers h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.flower-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.flower-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.flower-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.flower-card img {
+    width: 100%;
+    height: auto;
+}
+
+.flower-card h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: #333;
+}
+
+.flower-card p {
+    color: #ff6f61;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.view-details-button {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid #ff6f61;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+.view-details-button:hover {
+    color: #e55b50;
+    border-bottom: 2px solid #e55b50;
+}
+
+.promotions {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.promotions h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.promotion-details {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: underline;
+    font-weight: 600;
+}
