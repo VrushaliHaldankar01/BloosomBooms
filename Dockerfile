@@ -1,4 +1,4 @@
-# Stage 1: Build the React app using Node
+# Stage 1: Build the React app using Node.js 20
 FROM node:20-bullseye as builder
 
 WORKDIR /app
